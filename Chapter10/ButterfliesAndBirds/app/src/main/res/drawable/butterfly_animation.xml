@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/butterfly_one" android:duration="100"/>
+    <item android:drawable="@drawable/butterfly_two" android:duration="100"/>
+    <item android:drawable="@drawable/butterfly_three" android:duration="100"/>
+    <item android:drawable="@drawable/butterfly_four" android:duration="100"/>
+    <item android:drawable="@drawable/butterfly_five" android:duration="100"/>
+    <item android:drawable="@drawable/butterfly_six" android:duration="100"/>
+    <item android:drawable="@drawable/butterfly_seven" android:duration="100"/>
+    <item android:drawable="@drawable/butterfly_eight" android:duration="100"/>
+</animation-list>

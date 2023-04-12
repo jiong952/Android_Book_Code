@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_color"
+    android:orientation="vertical">
+    <include layout="@layout/title_bar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/tvStyle"
+            android:text="推荐"
+            android:textColor="@android:color/holo_red_dark" />
+        <TextView
+            style="@style/tvStyle"
+            android:text="抗疫"
+            android:textColor="@color/gray_color" />
+        <TextView
+            style="@style/tvStyle"
+            android:text="小视频"
+            android:textColor="@color/gray_color" />
+        <TextView
+            style="@style/tvStyle"
+            android:text="北京"
+            android:textColor="@color/gray_color" />
+        <TextView
+            style="@style/tvStyle"
+            android:text="视频"
+            android:textColor="@color/gray_color" />
+        <TextView
+            style="@style/tvStyle"
+            android:text="热点"
+            android:textColor="@color/gray_color" />
+        <TextView
+            style="@style/tvStyle"
+            android:text="娱乐"
+            android:textColor="@color/gray_color" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eeeeee" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

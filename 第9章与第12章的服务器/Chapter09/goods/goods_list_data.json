@@ -1,0 +1,8 @@
+[
+  {"id":1,"count":"5.4万","goodsName":"富士拍立得相机","goodsPic":"http://172.16.43.20:8080/goods/img/polaroid.png"},
+  {"id":2,"count":"5.3万","goodsName":"格兰仕微波炉","goodsPic":"http://172.16.43.20:8080/goods/img/microwave_oven.png"},
+  {"id":3,"count":"1.4万","goodsName":"新国标电动车","goodsPic":"http://172.16.43.20:8080/goods/img/electric_vehicle.png"},
+  {"id":4,"count":"1.6万","goodsName":"官方订制投影仪","goodsPic":"http://172.16.43.20:8080/goods/img/projector.png"},
+  {"id":5,"count":"0.4万","goodsName":"美的35L烤箱","goodsPic":"http://172.16.43.20:8080/goods/img/oven.png"},
+  {"id":6,"count":"3.3万","goodsName":"儿童学习桌","goodsPic":"http://172.16.43.20:8080/goods/img/learning_table.png"}
+]

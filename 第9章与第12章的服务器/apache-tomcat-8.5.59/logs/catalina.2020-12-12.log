@@ -1,0 +1,40 @@
+12-Dec-2020 16:58:55.926 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.59
+12-Dec-2020 16:58:56.018 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 6 2020 16:57:18 UTC
+12-Dec-2020 16:58:56.022 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.59.0
+12-Dec-2020 16:58:56.025 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+12-Dec-2020 16:58:56.029 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+12-Dec-2020 16:58:56.032 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+12-Dec-2020 16:58:56.035 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Program Files\Java\jdk1.8.0_201\jre
+12-Dec-2020 16:58:56.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_201-b09
+12-Dec-2020 16:58:56.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+12-Dec-2020 16:58:56.042 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Users\itcast\Desktop\apache-tomcat-8.5.59
+12-Dec-2020 16:58:56.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Users\itcast\Desktop\apache-tomcat-8.5.59
+12-Dec-2020 16:58:56.045 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=C:\Users\itcast\Desktop\apache-tomcat-8.5.59\conf\logging.properties
+12-Dec-2020 16:58:56.047 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Dec-2020 16:58:56.050 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+12-Dec-2020 16:58:56.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Dec-2020 16:58:56.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+12-Dec-2020 16:58:56.058 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=C:\Users\itcast\Desktop\apache-tomcat-8.5.59
+12-Dec-2020 16:58:56.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=C:\Users\itcast\Desktop\apache-tomcat-8.5.59
+12-Dec-2020 16:58:56.064 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=C:\Users\itcast\Desktop\apache-tomcat-8.5.59\temp
+12-Dec-2020 16:58:56.067 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.25]。
+12-Dec-2020 16:58:56.069 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+12-Dec-2020 16:58:56.071 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+12-Dec-2020 16:58:56.101 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1g  21 Apr 2020]
+12-Dec-2020 16:58:56.879 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+12-Dec-2020 16:58:57.243 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Dec-2020 16:58:57.269 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2367 ms
+12-Dec-2020 16:58:57.388 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+12-Dec-2020 16:58:57.389 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+12-Dec-2020 16:58:57.408 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\docs]
+12-Dec-2020 16:58:57.834 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\docs]的部署已在[406]毫秒内完成
+12-Dec-2020 16:58:57.834 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\examples]
+12-Dec-2020 16:58:58.618 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\examples]的部署已在[784]毫秒内完成
+12-Dec-2020 16:58:58.618 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\host-manager]
+12-Dec-2020 16:58:58.673 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\host-manager]的部署已在[55]毫秒内完成
+12-Dec-2020 16:58:58.673 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\manager]
+12-Dec-2020 16:58:58.724 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\manager]的部署已在[51]毫秒内完成
+12-Dec-2020 16:58:58.724 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\ROOT]
+12-Dec-2020 16:58:58.755 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Users\itcast\Desktop\apache-tomcat-8.5.59\webapps\ROOT]的部署已在[31]毫秒内完成
+12-Dec-2020 16:58:58.758 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+12-Dec-2020 16:58:58.768 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1498 ms

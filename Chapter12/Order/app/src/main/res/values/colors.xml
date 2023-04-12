@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_gray">#7e7e7e</color>
+    <color name="feature_bg_color">#fff8e1</color>
+    <color name="feature_text_color">#ff7d00</color>
+    <color name="item_bg_color">#d4d4d4</color>
+    <color name="blue_color">#2e8de9</color>
+    <color name="light_gray">#d9d9d9</color>
+    <color name="car_gray_color">#454545</color>
+    <color name="account_color">#ff9500</color>
+    <color name="account_gray_color">#535353</color>
+    <color name="price_red">#ff5339</color>
+    <color name="account_selected_color">#BDBDBD</color>
+    <color name="type_gray">#f8f8f8</color>
+</resources>

@@ -1,0 +1,82 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+    <TableRow
+        android:id="@+id/tr_one"
+        style="@style/rowStyle"
+        android:layout_marginTop="200dp">
+        <Button
+            style="@style/btnStyle"
+            android:text="C" />
+        <Button
+            style="@style/btnStyle"
+            android:text="←" />
+        <Button
+            style="@style/btnStyle"
+            android:text="+" />
+        <Button
+            style="@style/btnStyle"
+            android:text="-" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tr_two"
+        style="@style/rowStyle">
+        <Button
+            style="@style/btnStyle"
+            android:text="7" />
+        <Button
+            style="@style/btnStyle"
+            android:text="8" />
+        <Button
+            style="@style/btnStyle"
+            android:text="9" />
+        <Button
+            style="@style/btnStyle"
+            android:text="x" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tr_three"
+        style="@style/rowStyle">
+        <Button
+            style="@style/btnStyle"
+            android:text="6" />
+        <Button
+            style="@style/btnStyle"
+            android:text="5" />
+        <Button
+            style="@style/btnStyle"
+            android:text="4" />
+        <Button
+            style="@style/btnStyle"
+            android:text="/" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tr_four"
+        style="@style/rowStyle">
+        <Button
+            style="@style/btnStyle"
+            android:text="1" />
+        <Button
+            style="@style/btnStyle"
+            android:text="2" />
+        <Button
+            style="@style/btnStyle"
+            android:text="3" />
+        <Button
+            style="@style/btnStyle"
+            android:text="." />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tr_five"
+        style="@style/rowStyle">
+        <Button
+            style="@style/btnStyle"
+            android:layout_span="2"
+            android:text="0" />
+        <Button
+            style="@style/btnStyle"
+            android:layout_span="2"
+            android:text="=" />
+    </TableRow>
+</TableLayout>

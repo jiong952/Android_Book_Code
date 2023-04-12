@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/gray"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_order"
+            style="@style/tvNavigationBarStyle"
+            android:text="点菜"
+            android:textColor="@android:color/black" />
+        <TextView
+            android:id="@+id/tv_discuss"
+            style="@style/tvNavigationBarStyle"
+            android:layout_toRightOf="@id/tv_order"
+            android:text="评价"
+            android:textColor="@color/dark_gray" />
+        <TextView
+            android:id="@+id/tv_business"
+            style="@style/tvNavigationBarStyle"
+            android:layout_toRightOf="@id/tv_discuss"
+            android:text="商家"
+            android:textColor="@color/dark_gray" />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/friend_list"
+            android:gravity="center"
+            android:text="好友拼单"
+            android:textColor="#ef842c"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <fragment
+            android:id="@+id/left"
+            android:name="cn.itcast.menu.LeftFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/left_layout" />
+        <fragment
+            android:id="@+id/right"
+            android:name="cn.itcast.menu.RightFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            tools:layout="@layout/right_layout" />
+    </LinearLayout>
+</LinearLayout>

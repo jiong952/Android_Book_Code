@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:text="添加"
+        android:textColor="#006000"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:text="更新"
+        android:textColor="#006000"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:text="删除"
+        android:textColor="#006000"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:text="查询"
+        android:textColor="#006000"
+        android:textSize="20dp" />
+</LinearLayout>

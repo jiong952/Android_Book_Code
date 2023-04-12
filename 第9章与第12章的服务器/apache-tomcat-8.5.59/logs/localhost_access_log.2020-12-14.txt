@@ -1,0 +1,8 @@
+172.16.43.20 - - [14/Dec/2020:18:59:06 +0800] "GET /goods/goods_list_data.json HTTP/1.1" 200 766
+172.16.43.20 - - [14/Dec/2020:18:59:06 +0800] "GET /goods/img/projector.png HTTP/1.1" 200 19214
+172.16.43.20 - - [14/Dec/2020:18:59:06 +0800] "GET /goods/img/electric_vehicle.png HTTP/1.1" 200 36450
+172.16.43.20 - - [14/Dec/2020:18:59:06 +0800] "GET /goods/img/microwave_oven.png HTTP/1.1" 200 34571
+172.16.43.20 - - [14/Dec/2020:18:59:06 +0800] "GET /goods/img/polaroid.png HTTP/1.1" 200 45551
+172.16.43.20 - - [14/Dec/2020:18:59:40 +0800] "GET /goods/img/oven.png HTTP/1.1" 200 36435
+172.16.43.20 - - [14/Dec/2020:18:59:40 +0800] "GET /goods/img/learning_table.png HTTP/1.1" 200 30066
+172.16.43.20 - - [14/Dec/2020:19:05:20 +0800] "GET /goods/goods_list_data.json HTTP/1.1" 200 766

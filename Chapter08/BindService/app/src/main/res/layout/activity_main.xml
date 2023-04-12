@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+    <Button
+        android:id="@+id/btn_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="85dp"
+        android:background="#F5F5DC"
+        android:text="解绑服务"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_unbind"
+        android:layout_alignLeft="@id/btn_unbind"
+        android:layout_marginBottom="55dp"
+        android:background="#F5F5DC"
+        android:padding="10dp"
+        android:text="调用服务中的方法"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_call"
+        android:layout_alignLeft="@id/btn_call"
+        android:layout_marginBottom="50dp"
+        android:background="#F5F5DC"
+        android:text="绑定服务"
+        android:textSize="16sp" />
+</RelativeLayout>

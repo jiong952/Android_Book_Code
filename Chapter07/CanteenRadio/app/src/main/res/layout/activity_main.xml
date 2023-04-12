@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:id="@+id/ll_horn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:id="@+id/iv_horn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horn" />
+        <TextView
+            android:id="@+id/tv_right_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_horn"
+            android:background="@drawable/content_right_bg"
+            android:gravity="center"
+            android:text="点击喇叭"
+            android:textColor="@android:color/white" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_right_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/iv_horn"
+            android:src="@drawable/foods" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_horn"
+        android:layout_marginTop="100dp" >
+        <ImageView
+            android:id="@+id/iv_rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/rabbit" />
+        <TextView
+            android:id="@+id/tv_left_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/iv_rabbit"
+            android:background="@drawable/content_left_bg"
+            android:gravity="center"
+            android:text="开饭啦！"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>
